@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/a/AndroidStudioProjects/crony/app/build/intermediates/res/merged/debug/menu/menu_login.xml",
+        "source": "/home/a/AndroidStudioProjects/crony/app/src/main/res/menu/menu_login.xml"
+    },
+    {
+        "merged": "/home/a/AndroidStudioProjects/crony/app/build/intermediates/res/merged/debug/menu/menu_login_page.xml",
+        "source": "/home/a/AndroidStudioProjects/crony/app/src/main/res/menu/menu_login_page.xml"
+    }
+]

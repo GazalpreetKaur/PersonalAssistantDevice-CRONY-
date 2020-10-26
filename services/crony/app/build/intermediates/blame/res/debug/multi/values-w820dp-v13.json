@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "/home/a/AndroidStudioProjects/crony/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/a/AndroidStudioProjects/crony/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 57,
+                        "endOffset": 348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 44,
+                    "endOffset": 153
+                },
+                "from": {
+                    "file": "/home/a/AndroidStudioProjects/crony/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 398,
+                        "endColumn": 44,
+                        "endOffset": 438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 158,
+                    "endColumn": 44,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "/home/a/AndroidStudioProjects/crony/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 444,
+                        "endColumn": 44,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 42,
+                    "endOffset": 241
+                },
+                "from": {
+                    "file": "/home/a/AndroidStudioProjects/crony/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 42,
+                        "endOffset": 392
+                    }
+                }
+            }
+        ]
+    }
+]

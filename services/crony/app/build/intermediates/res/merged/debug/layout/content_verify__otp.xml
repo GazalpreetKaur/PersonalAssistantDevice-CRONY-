@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.developtech.crony.Verify_OTP"
+    tools:showIn="@layout/activity_verify__otp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@android:drawable/ic_menu_camera"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        >
+        <com.developtech.crony.MyTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="Verifying   "
+            style="@style/textviewhintstyle"
+            />
+        <com.developtech.crony.MyTextView
+            android:id="@+id/tvmobile"
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="wrap_content"
+            style="@style/textviewstyle"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:gravity="center"        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et1"
+                android:textCursorDrawable="@drawable/coloured_cursor"
+                />
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textCursorDrawable="@drawable/coloured_cursor"
+                />
+            <EditText
+                android:id="@+id/et3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textCursorDrawable="@drawable/coloured_cursor"
+                />
+            <EditText
+                android:id="@+id/et4"
+                android:layout_width="40dp"
+                android:textCursorDrawable="@drawable/coloured_cursor"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+            <com.developtech.crony.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2min"
+                android:gravity="center"
+                />
+
+
+    </LinearLayout>
+
+    <com.developtech.crony.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting for OTP"
+        android:layout_marginTop="30dp"
+        style="@style/mytextviewbighint"
+        android:layout_gravity="center"
+        />
+    <com.developtech.crony.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verifying OTP"
+        android:layout_marginTop="10dp"
+        style="@style/mytextviewbighint"
+        android:textColor="@color/signincolorstart"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnverify"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        style="@style/buttonstyle"
+        android:text=">"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="hintcolor">#cfcfcf</color>
+    <color name="textcolor">#747474</color>
+    <color name="textviewtextcolor">#a09fed</color>
+    <color name="facebookcolorstart">#3b5999</color>
+    <color name="facebookcolorend">#627db6</color>
+    <color name="buttontextcolor">#ffffff</color>
+    <color name="googlecolorstart">#de4b39</color>
+    <color name="googlecolorend">#ea7c6f</color>
+    <color name="signincolorstart">#a09fed</color>
+    <color name="signincolorend">#bfbff3</color>
+    <color name="whatsappcolor">#4dc247</color>
+    <color name="newscolor">#9370DB</color>
+    <color name="phonecolor">#4B0082</color>
+    <color name="snapchatcolor">#fffc00</color>
+</resources>

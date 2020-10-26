@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="viewlayout.ad.com.contactapp.LoginActivity">
+    <item
+        android:id="@+id/action_Share"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+    <item
+        android:id="@+id/action_Edit"
+        android:orderInCategory="100"
+        android:title="Edit"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="ic_margin">10dp</dimen>
+    <dimen name="padding_button">5dp</dimen>
+    <dimen name="etelevation">2dp</dimen>
+    <dimen name="etmargin">10dp</dimen>
+    <dimen name="buttonwidth">200dp</dimen>
+    <dimen name="edittextelevation">1dp</dimen>
+    <dimen name="standard_21">21dp</dimen>
+    <dimen name="standard_45">45dp</dimen>
+    <dimen name="standard_155">155dp</dimen>
+</resources>

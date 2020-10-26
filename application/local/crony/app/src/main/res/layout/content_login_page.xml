@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/buttontextcolor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.developtech.crony.LoginPage"
+    tools:showIn="@layout/activity_login_page"
+    android:background="@color/buttontextcolor"
+    >
+
+<ImageView
+    android:layout_width="170dp"
+    android:layout_height="170dp"
+    android:layout_margin="50dp"
+    android:layout_gravity="center"
+    android:src="@drawable/app_icon"
+    android:id="@+id/imgcrony"
+    />
+    <com.developtech.crony.MyEditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/editextstyle"
+        android:layout_margin="@dimen/etmargin"
+         android:id="@+id/etusername"
+        android:hint="@string/hint_enter_username"
+        android:paddingLeft="@dimen/ic_margin"
+        android:drawablePadding="@dimen/ic_margin"
+        android:drawableLeft="@drawable/ic_user_color"
+        />
+
+    <com.developtech.crony.MyEditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/editextstyle"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/ic_margin"
+        android:drawablePadding="@dimen/ic_margin"
+        android:layout_margin="@dimen/etmargin"
+        android:id="@+id/etpassword"
+        android:hint="@string/hint_enter_password"
+        android:drawableLeft="@drawable/ic_password_grey"
+        />
+    <com.developtech.crony.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_gravity="right"
+        android:id="@+id/tvforgotpassword"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        style="@style/textviewstyle"
+        />
+    <com.developtech.crony.MyButton
+        android:layout_width="@dimen/buttonwidth"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/buttonstyle"
+        android:id="@+id/btnsignin"
+        android:layout_margin="16dp"
+        android:padding="@dimen/padding_button"
+        android:paddingLeft="15dp"
+        android:text="@string/button_sign_in"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/signincolorend">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnfblogin"
+            android:text="@string/button_login_with_facebook"
+            android:layout_margin="12dp"
+            android:visibility="gone"
+            style="@style/facebookbuttonstyle"
+            android:paddingLeft="20dp" />
+        <!--com.developtech.crony.MyButton-->
+        <com.google.android.gms.common.SignInButton
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/sign_in_button"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <com.developtech.crony.MyTextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            style="@style/textviewhintstyle"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Don't have an account ? "/>
+        <com.developtech.crony.MyTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tvsignup"
+            style="@style/textviewstyle"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:gravity="left"
+            android:textColor="@color/signincolorstart"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "117212718084",
+    "project_id": "firebase-crony"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117212718084:android:f752716cba07e0fe",
+        "android_client_info": {
+          "package_name": "com.developtech.crony"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117212718084-fc08bln2largs2pfv7c9ee76jps6hrkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developtech.crony",
+            "certificate_hash": "d8a102b82e901651feae2ff3aa9e24e1953fcdf7"
+          }
+        },
+        {
+          "client_id": "117212718084-44rd1vlknp7askvmvs8mii51t1vtm6gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtzlte7cEduSJjnd4zxYrtVq6Jqmdxc6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
